@@ -1,0 +1,99 @@
+/* Add these styles to your existing style.css file */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #b8860b;
+    z-index: 1000;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.section {
+    margin: 100px auto; /* Center the content and add space above and below each section */
+    text-align: center;
+    max-width: 800px; /* Limit the width of the content for better readability */
+}
+
+.section-title {
+    font-size: 24px;
+    margin-bottom: 20px; /* Add space below the section title */
+}
+
+.logo-container {
+    position: relative;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+    z-index: 1;
+    max-height: 200px;
+}
+
+.flyer-container {
+    text-align: center;
+}
+
+.flyer {
+    max-width: 100%;
+    height: auto;
+    max-height: 700px;
+}
+
+.left-text,
+.right-text {
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.section-divider {
+    margin: 20px 0;
+    border: 1px solid #000; /* Black line as section divider */
+}
+
+.section-divider-home {
+    margin: 30px 0; /* Increased margin for more space */
+    border: 1px solid #b8860b; /* Match the color of the navbar */
+}
+
+footer {
+    background-color: #b8860b;
+    color: white;
+    text-align: center;
+    padding: 5px; /* Adjusted padding for a smaller footer text */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-text {
+    font-size: 12px; /* Adjusted font size for the footer text */
+}
