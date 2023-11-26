@@ -98,7 +98,7 @@ ul {
 .register {
 	.register {
     font-size: 28px;
-    background-color: #b2dfdb; /* Match the background color of the events section */
+    background-color: #D1EEEE; /* Match the background color of the events section */
     padding: 10px; /* Add padding for better aesthetics */
     display: inline-block; /* Ensure the background color only covers the width of the text */
 }
