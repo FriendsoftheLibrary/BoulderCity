@@ -54,7 +54,7 @@ header {
 }
 
 .section-title {
-    font-size: 32px;
+    font-size: 24px;
     margin-bottom: 5px; /* Add space below the section title */
 }
 
@@ -96,8 +96,13 @@ ul {
 }
 
 .register {
-	font-size: 28px;
+	.register {
+    font-size: 28px;
+    background-color: #b2dfdb; /* Match the background color of the events section */
+    padding: 10px; /* Add padding for better aesthetics */
+    display: inline-block; /* Ensure the background color only covers the width of the text */
 }
+
 
 .section-divider {
     margin: 20px 0;
