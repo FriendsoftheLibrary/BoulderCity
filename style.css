@@ -54,7 +54,7 @@ header {
 }
 
 .section-title {
-    font-size: 24px;
+    font-size: 32px;
     margin-bottom: 5px; /* Add space below the section title */
 }
 
@@ -96,13 +96,8 @@ ul {
 }
 
 .register {
-	.register {
-    font-size: 28px;
-    background-color: #D1EEEE;
-    padding: 10px; /* Add padding for better aesthetics */
-    display: inline-block; /* Ensure the background color only covers the width of the text */
+	font-size: 28px;
 }
-
 
 .section-divider {
     margin: 20px 0;
@@ -127,4 +122,3 @@ footer {
 .footer-text {
     font-size: 12px; /* Adjusted font size for the footer text */
 }
-	
